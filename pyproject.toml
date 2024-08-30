@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "music-generator"
+version = "0.1.0"
+description = ""
+authors = ["Flavian Reignault <flavian.reignault@gmail.com>"]
+readme = "README.md"
+packages = [
+    { include = "src" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
