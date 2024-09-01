@@ -11,6 +11,8 @@ packages = [
 [tool.poetry.dependencies]
 python = "^3.10"
 pandas = "^2.2.2"
+llvmlite = "^0.43.0"
+librosa = "^0.10.2.post1"
 
 
 [tool.poetry.group.dev.dependencies]
