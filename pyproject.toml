@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "music-generator"
+name = "music-classifier"
 version = "0.1.0"
 description = ""
 authors = ["Flavian Reignault <flavian.reignault@gmail.com>"]
