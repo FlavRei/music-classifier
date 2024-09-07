@@ -49,13 +49,8 @@ An average accuracy of 64.5% is achieved with the following individual scores:
 The classes predicted by each model are combined by majority vote. The accuracy of this vote is also calculated.  
 Here we obtain an average score of 62%.  
 
-##### Confusion matrix
+##### Confusion matrices
 Visualization of the confusion matrices of each model.  
-- LSTM:  
-![LSTM confusion matrix](img/lstm_confusion_matrix.png)  
+![Confusion Matrices](confusion_matrices.png)  
 
-- GRU:  
-![GRU confusion matrix](img/gru_confusion_matrix.png)  
-
-- CNN:  
-![CNN confusion matrix](img/cnn_confusion_matrix.png)  
+We clearly see through these results that the CNN model is the most efficient, it is therefore the latter which is used within the application.  
