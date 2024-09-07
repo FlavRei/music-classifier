@@ -1,11 +1,3 @@
-# How to use the application
-At the root of the project, you can run the following command:  
-> poetry run streamlit run app.py  
-
-And then, go to the following link: http://172.21.193.44:8501/  
-
-Now, you can upload a music in any of the given formats. The AI will process and find the genre of the music.  
-
 # Explanations about the development
 ### Exploration notebook
 ##### Visualize audio file
