@@ -1,3 +1,8 @@
+# How to use the application
+This application is deployed on Streamlit Cloud. Go to the following link:  https://flavrei-music-classifier.streamlit.app/  
+
+Now, you can upload a music in any of the given formats. The AI will process and find the genre of the music.  
+
 # Explanations about the development
 ### Exploration notebook
 ##### Visualize audio file
@@ -43,6 +48,6 @@ Here we obtain an average score of 62%.
 
 ##### Confusion matrices
 Visualization of the confusion matrices of each model.  
-![Confusion Matrices](confusion_matrices.png)  
+![Confusion Matrices](img/confusion_matrices.png)  
 
 We clearly see through these results that the CNN model is the most efficient, it is therefore the latter which is used within the application.  
